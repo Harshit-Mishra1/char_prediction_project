@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Downloaded dataset & trained model checkpoints (large files)
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
